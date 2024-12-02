@@ -1,0 +1,31 @@
+body {
+    background-color: #fff3e0; /* Light orange background */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #ffcc80; /* Light orange-yellow */
+    border-color: #ffcc80;
+}
+
+.nav-tabs .nav-link {
+    color: #6c757d; /* Default tab text color */
+}
+
+.nav-tabs .nav-link:hover {
+    border-color: #ffcc80; /* Light orange-yellow border on hover */
+}
+
+.tab-content {
+    border: 1px solid #dee2e6; /* Border for the tab content */
+    border-top: none;
+    padding: 20px;
+    background-color: #ffffff; /* White background for tab content */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 204, 128, 0.5); /* Light orange-yellow for odd rows */
+}
+
+.table th, .table td {
+    vertical-align: middle; /* Center content vertically */
+}
